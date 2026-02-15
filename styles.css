@@ -21,6 +21,11 @@
 
         .font-serif { font-family: 'Playfair Display', serif; }
 
+        .telugu-text {
+            font-family: 'Mandali', sans-serif;
+            font-weight: 700;
+        }
+
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
@@ -42,6 +47,17 @@
             position: fixed;
             pointer-events: none;
             z-index: 50;
+        }
+
+        #animation-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 40;
+            overflow: hidden;
         }
 
         /* Animation for elements floating UP */
